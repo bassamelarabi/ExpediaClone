@@ -127,13 +127,62 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="AirCanada.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="CreditCard.cpp" />
+    <ClCompile Include="Customer.cpp" />
+    <ClCompile Include="CustomersManager.cpp" />
+    <ClCompile Include="DebitCard.cpp" />
+    <ClCompile Include="Expedia.cpp" />
     <ClCompile Include="ExpediaClone.cpp" />
+    <ClCompile Include="Flight.cpp" />
+    <ClCompile Include="FlightsManager.cpp" />
+    <ClCompile Include="Hilton.cpp" />
+    <ClCompile Include="HotelRoom.cpp" />
+    <ClCompile Include="HotelsManager.cpp" />
+    <ClCompile Include="IFlight.cpp" />
+    <ClCompile Include="IHotel.cpp" />
+    <ClCompile Include="IPayment.cpp" />
+    <ClCompile Include="IReservation.cpp" />
+    <ClCompile Include="ItineraryReservation.cpp" />
+    <ClCompile Include="Marriott.cpp" />
+    <ClCompile Include="PaymentFactory.cpp" />
+    <ClCompile Include="PayPalPayment.cpp" />
+    <ClCompile Include="StripePayment.cpp" />
+    <ClCompile Include="TurkishAirlines.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="AirCanada.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CreditCard.h" />
+    <ClInclude Include="Customer.h" />
+    <ClInclude Include="CustomersManager.h" />
+    <ClInclude Include="DebitCard.h" />
+    <ClInclude Include="Expedia.h" />
     <ClInclude Include="expedia_flights_api.h" />
     <ClInclude Include="expedia_hotels_api.h" />
     <ClInclude Include="expedia_payments_api.h" />
+    <ClInclude Include="Flight.h" />
+    <ClInclude Include="FlightsManager.h" />
+    <ClInclude Include="Hilton.h" />
+    <ClInclude Include="HotelRoom.h" />
+    <ClInclude Include="HotelsManager.h" />
+    <ClInclude Include="IFlight.h" />
+    <ClInclude Include="IHotel.h" />
+    <ClInclude Include="IPayment.h" />
+    <ClInclude Include="IReservation.h" />
+    <ClInclude Include="ItineraryReservation.h" />
     <ClInclude Include="json.hpp" />
+    <ClInclude Include="Marriott.h" />
+    <ClInclude Include="PaymentFactory.h" />
+    <ClInclude Include="PayPalPayment.h" />
+    <ClInclude Include="StripePayment.h" />
+    <ClInclude Include="TurkishAirlines.h" />
+    <ClInclude Include="User.h" />
+    <ClInclude Include="Utilities.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
